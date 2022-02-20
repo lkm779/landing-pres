@@ -2,7 +2,7 @@
 html, body{
 
     margin: 0;
-    color: rgb(252, 185, 243) ;
+    color: rgb(252, 185, 243);
     background: rgb(117, 255, 248);
     width: 100%;
     height: 100%;
@@ -68,9 +68,9 @@ html, body{
                                                 
 
 }
-.screen img{
-    width:200px;
-    height:400px;
+.screen img {
+    width: 200px;
+    height: 400px;
     display: flex;
     border-radius: 30%;
     justify-content: space-between;
@@ -193,17 +193,14 @@ html, body{
     left: 500px;
     font-size: 30px;
     font-family: 'Mercutio NBP Basic', sans-serif;
-   
-       
-    
-    
+
     }
 
 
     
     h1 {
       font-size: 23px;
-      font-family:  'Guillermonkey', sans-serif;
+      font-family: 'Guillermonkey', sans-serif;
       letter-spacing: 0.05em;
       color: #fff;
     }
