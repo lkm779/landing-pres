@@ -11,6 +11,30 @@ html, body{
 
 }
 
+@font-face {
+  font-family: 'gotham';
+  src: url("http://fonts.cdnfonts.com/css/gotham");
+}
+
+@font-face {
+  font-family: 'mercutio-nbp-basic';
+  src: url("http://fonts.cdnfonts.com/css/mercutio-nbp-basic");
+}
+
+@font-face {
+  font-family: 'guillermonkey';
+  src: url("http://fonts.cdnfonts.com/css/guillermonkey");
+}
+
+@font-face {
+  font-family: 'maus';
+  src: url("http://fonts.cdnfonts.com/css/maus");
+}
+
+@font-face {
+  font-family: 'just-a-kid';
+  src: url("http://fonts.cdnfonts.com/css/just-a-kid" );
+}
 
 
 .landing-inner{
