@@ -1,4 +1,65 @@
 
+
+
+@font-face {
+    font-family: 'Mercutio Nbp';
+    src: url('fonts/mercutio/mercutio_sc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/gotham/hero-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/gotham/homepagebaukasten-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/gotham/flamante-roma-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: medium;
+
+}
+
+
+@font-face {
+    font-family: 'guillermonkey';
+    src: url('fonts/guillermonkey/guillermonkey-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'just a kid';
+    src: url('fonts/just_a_kid/just_a_kid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 html, body{
 
     margin: 0;
@@ -11,30 +72,6 @@ html, body{
 
 }
 
-@font-face {
-  font-family: 'gotham';
-  src: url("http://fonts.cdnfonts.com/css/gotham");
-}
-
-@font-face {
-  font-family: 'mercutio-nbp-basic';
-  src: url("http://fonts.cdnfonts.com/css/mercutio-nbp-basic");
-}
-
-@font-face {
-  font-family: 'guillermonkey';
-  src: url("http://fonts.cdnfonts.com/css/guillermonkey");
-}
-
-@font-face {
-  font-family: 'maus';
-  src: url("http://fonts.cdnfonts.com/css/maus");
-}
-
-@font-face {
-  font-family: 'just-a-kid';
-  src: url("http://fonts.cdnfonts.com/css/just-a-kid" );
-}
 
 
 .landing-inner{
@@ -50,8 +87,9 @@ html, body{
     font-size: 150px;
     position:absolute;
     font-weight-absolute: bold;
-    color: violet;
-    font-family: 'Gotham Black', sans-serif;
+    color: rgb(255, 142, 255);
+    font-family: 'gotham', sans-serif;
+    font-weight: 500;
     position: relative;
     display: flex;
     align-items: center;
@@ -64,7 +102,7 @@ html, body{
     left: 240px;
     top: 600px;
     font-size: 60px;
-    font-family: 'Mercutio NBP Basic', sans-serif;
+    font-family: 'Mercutio NBP', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +125,7 @@ html, body{
       display: flex;
     font-size: 50px;
     font-family: 'Guillermonkey', sans-serif;
-    color: violet;
+    color: rgb(255, 142, 255);
     
                                                 
 
@@ -161,10 +199,7 @@ html, body{
     top: 950px;
     font-size: 90px;
     color:rgb(240, 48, 240);
-    font-family: 'just a kid', sans-serif;
-                                                
-                                                
-                                                
+    font-family: 'just a kid', sans-serif;                                       
     display: flex;
     flex: 1;
     margin-right: 0px;
@@ -173,39 +208,7 @@ html, body{
 
 }
 
-.container-bar{
 
-    position: absolute;
-    left: 350px;
-    top: 1500px;
-    font-size: 50px;
-    font-weight-absolute: bold;
-    color: violet;
-    font-family: 'Maus', sans-serif;
-    display: flex;
-    flex: 1;
-    margin-right: 0px;
-
-
-
-}
-
-.container-button{
-
-    position: absolute;
-    left: 350px;
-    top: 1550px;
-    font-size: 50px;
-    font-weight-absolute: bold;
-    color: violet;
-    font-family: 'Maus', sans-serif;
-    display: flex;
-    flex: 1;
-    margin-right: 0px;
-
-
-
-}
 
 
 
@@ -216,7 +219,7 @@ html, body{
     bottom: 0px;
     left: 500px;
     font-size: 30px;
-    font-family: 'Mercutio NBP Basic', sans-serif;
+    font-family: 'Mercutio NBP', sans-serif;
 
     }
 
