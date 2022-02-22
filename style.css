@@ -72,41 +72,139 @@ html, body{
 
 }
 
-
-
-.landing-inner{
-    
-    background: rgb(209, 255, 117);
-    text-align: center;
-}
-
-
-
-.landing p{
+p{
     margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 150px;
     position:absolute;
     font-weight-absolute: bold;
     color: rgb(255, 142, 255);
     font-family: 'gotham', sans-serif;
-    font-weight: 500;
+    font-weight: bolder ;
     position: relative;
-    display: flex;
-    align-items: center;
+    padding-left: 90px;
+    
 }
+
+.content{
+    
+    background: rgb(209, 255, 117);
+    size: 100%;
+}
+
+
+
+.content{
+position:relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.content .textBox{
+
+    position: relative;
+    max-width: 600px;
+    padding-left: 100px;
+}
+
+.content .textBox p5{
+    color: rgb(43, 39, 39);
+    font-family: 'gotham', sans-serif;
+    font-size: 30px;
+}
+
+.content .imgBox .screen{
+    width: 280px;
+    display: flex;
+    padding-right: 150px;
+    justify-content: flex-end
+
+}
+
+.container-text p3
+{
+
+    position: absolute;
+    left: 98px;
+    padding-top: 10px;
+    font-size: 50px;
+    color: rgb(240, 48, 240);
+    font-family: 'just a kid', sans-serif;
+    display: flex;
+    flex: 1;
+    margin-right: 0px;
+
+
+
+}
+.container-text p4
+{
+    padding-top: 47px;
+    position: absolute;
+    left: 98px;
+    font-size: 50px;
+    color:rgb(240, 48, 240);
+    font-family: 'just a kid', sans-serif;                                       
+    display: flex;
+    flex: 1;
+justify-content: flex-start;
+
+
+}
+
+.landing h1{
+    padding-top: ;
+    position: relative;
+    bottom: 5550px;
+    right: 580px;
+    display: flex;
+  font-size: 50px;
+  font-family: 'Guillermonkey', sans-serif;
+  color: rgb(255, 142, 255);
+  
+                                              
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .countdown {
     position: absolute;
-    left: 240px;
-    top: 600px;
+    left: 140px;
+    top: 2100px;
     font-size: 60px;
     font-family: 'Mercutio NBP', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 100px;
   }
 
   .countdown div {
@@ -118,18 +216,7 @@ html, body{
   margin: 5px;
   }
 
-  .landing h1{
-      position: absolute;
-      top: 1550px;
-      right: 580px;
-      display: flex;
-    font-size: 50px;
-    font-family: 'Guillermonkey', sans-serif;
-    color: rgb(255, 142, 255);
-    
-                                                
-
-}
+ 
 .screen img {
     width: 200px;
     height: 400px;
@@ -153,8 +240,8 @@ html, body{
 
 .flex-child p2 {
     position: absolute;
-    left: 150px;
-    bottom: 180px;
+    left: 100px;
+    top: 2000px;
     font-size: 55px;
     font-weight-absolute: bold;
     color: rgb(240, 48, 240);
@@ -175,38 +262,7 @@ html, body{
         
 } 
   
-.container-text p3
-{
 
-    position: absolute;
-    left: 150px;
-    top: 900px;
-    font-size: 90px;
-    color: rgb(240, 48, 240);
-    font-family: 'just a kid', sans-serif;
-    display: flex;
-    flex: 1;
-    margin-right: 0px;
-
-
-
-}
-.container-text p4
-{
-
-    position: absolute;
-    left: 150px;
-    top: 950px;
-    font-size: 90px;
-    color:rgb(240, 48, 240);
-    font-family: 'just a kid', sans-serif;                                       
-    display: flex;
-    flex: 1;
-    margin-right: 0px;
-
-
-
-}
 
 
 
