@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/gotham/flamante-roma-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: medium;
+
+}
+
+
+@font-face {
+    font-family: 'guillermonkey';
+    src: url('fonts/guillermonkey/guillermonkey-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html, body{
+
+    margin: 0;
+    color: rgb(255, 125, 255);
+    background:rgb(183, 241, 151);
+    width: 100%;
+    scroll-behavior: smooth;
+    display: flex;
+  min-height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+    height:100vh;
+    padding:0;
+    margin:0;
+
+    
+
+}
+
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ .about{
+    text-decoration: none;
+    color: black;
+    padding-left: 300px;
+    font-family: 'gotham', 'sans-serif';
+    color: rgb(36, 36, 36);
+
+
+}
+
+ #logo_01{
+    width: 20%;
+    padding: 25px 50px 80px 35px;
+
+}
+
+.nav-links{
+    padding: 0px, 100px;
+}
+
+
+.nav-links li a img{
+    width: 30px;
+    padding: 15px;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 0, 30px;
+    padding-right: 10px;
+}
+
+.nav-links li a{
+    color: black;
+}
+
+
+
+
+p{
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    position:absolute;
+    font-weight-absolute: bold;
+    color: rgb(255, 125, 255);
+    font-family: 'Guillermonkey', sans-serif;
+    font-weight: bolder ;
+    position: relative;
+    padding-left: 50px;
+    -webkit-text-stroke: 3px black; /* width and color */
+   
+
+    
+}
+
+p2{
+
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    position:absolute;
+    font-weight-absolute: bold;
+    color: rgb(32, 32, 32);
+    font-family: 'gotham', sans-serif;
+    font-weight: bolder ;
+    position: relative;
+    padding-left: 50px;
+
+
+
+}
